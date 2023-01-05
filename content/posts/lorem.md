@@ -1,10 +1,11 @@
 ---
-title: "lorem one"
+title: "Placeholder"
 date: 2023-01-05T15:35:47+07:00
 draft: false
+tags: ["placeholder"]
 ---
 
-# Random
+# Placeholder for first post
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor felis in quam bibendum vehicula. Vestibulum accumsan dui sit amet aliquam vehicula. Nulla cursus justo sed convallis tempor. Sed nec tincidunt eros, vitae mollis leo. Vivamus at iaculis nunc. Nunc faucibus ligula ut ultricies fermentum. Donec eu enim ut sapien congue dignissim at quis enim. Phasellus commodo nibh id augue bibendum consequat.
 
