@@ -14,6 +14,8 @@ params:
 taxonomies:
   tag: tags
 
+enableGitInfo: true
+
 languages:
   en:
     params:
