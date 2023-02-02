@@ -37,7 +37,7 @@ languages:
       main:
         - identifier: about
           name: about
-          url: /about
+          url: /about/
         - identifier: tags
           name: tags
-          url: /tags
+          url: /tags/
