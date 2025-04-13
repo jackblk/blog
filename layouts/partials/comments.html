@@ -1,3 +1,38 @@
-<script src="https://utteranc.es/client.js" repo="jackblk/blog" issue-term="pathname" theme="preferred-color-scheme"
-    crossorigin="anonymous" async>
+<script src="https://giscus.app/client.js" data-repo="jackblk/blog" data-repo-id="R_kgDOIuVYCA"
+    data-category="Announcements" data-category-id="DIC_kwDOIuVYCM4CpDAQ" data-mapping="pathname" data-strict="0"
+    data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark" data-lang="en"
+    data-loading="lazy" crossorigin="anonymous" async>
     </script>
+<script>
+    function setGiscusTheme(theme) {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({
+            giscus: {
+                setConfig: {
+                    theme: theme,
+                }
+            }
+        }, 'https://giscus.app');
+    }
+
+    const themeMap = {
+        'dark-theme': 'dark',
+        'light-theme': 'light'
+    };
+
+    function updateGiscusThemeFromLocalStorage() {
+        const storedTheme = localStorage.getItem('theme');
+        const giscusTheme = themeMap[storedTheme] || 'dark';
+        setGiscusTheme(giscusTheme);
+    }
+
+    // Observe theme toggle button
+    document.querySelector('.theme-toggle')?.addEventListener('click', () => {
+        // Small delay to allow theme change to apply
+        setTimeout(updateGiscusThemeFromLocalStorage, 10);
+    });
+
+    // Initial set on load
+    window.addEventListener('DOMContentLoaded', updateGiscusThemeFromLocalStorage);
+</script>
