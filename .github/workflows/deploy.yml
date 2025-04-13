@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Build & Deploy
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
         id: hugo-version
         run: |
           . ./.hugo
-          echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
+          echo "HUGO_VERSION=${HUGO_VERSION}" >> $GITHUB_OUTPUT
 
       - name: Install Dart Sass
         run: sudo snap install dart-sass
