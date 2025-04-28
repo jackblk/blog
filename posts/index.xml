@@ -1,7 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on /home/jackblk</title><link>https://blog.haicon.moe/posts/</link><description>Recent content in Posts on /home/jackblk</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 Jan 2023 15:35:47 +0700</lastBuildDate><atom:link href="https://blog.haicon.moe/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Placeholder</title><link>https://blog.haicon.moe/posts/lorem/</link><pubDate>Thu, 05 Jan 2023 15:35:47 +0700</pubDate><guid>https://blog.haicon.moe/posts/lorem/</guid><description>
-&lt;h1 id="placeholder-for-first-post">
-Placeholder for first post
-&lt;a href="#placeholder-for-first-post" class="h-anchor" aria-hidden="true">#&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on /home/jackblk</title><link>https://blog.haicon.moe/posts/</link><description>Recent content in Posts on /home/jackblk</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 27 Apr 2025 15:35:47 +0700</lastBuildDate><atom:link href="https://blog.haicon.moe/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Counter Strike 2 Practice commands</title><link>https://blog.haicon.moe/posts/cs2-practice-commands/</link><pubDate>Sun, 27 Apr 2025 15:35:47 +0700</pubDate><guid>https://blog.haicon.moe/posts/cs2-practice-commands/</guid><description>
+&lt;h1 id="cs-2-practice-commands">
+CS 2 Practice Commands
+&lt;a href="#cs-2-practice-commands" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h1>
-&lt;p>Update test: 2023-01-11&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor felis in quam bibendum vehicula. Vestibulum accumsan dui sit amet aliquam vehicula. Nulla cursus justo sed convallis tempor. Sed nec tincidunt eros, vitae mollis leo. Vivamus at iaculis nunc. Nunc faucibus ligula ut ultricies fermentum. Donec eu enim ut sapien congue dignissim at quis enim. Phasellus commodo nibh id augue bibendum consequat.&lt;/p></description></item></channel></rss>
+&lt;p>Here&amp;rsquo;s the practice commands, copy and paste to your console.&lt;/p>
+&lt;h3 id="server-teambalance-roundtime-and-remove-bots">
+Server, teambalance, roundtime and remove bots
+&lt;a href="#server-teambalance-roundtime-and-remove-bots" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>sv_cheats 1;bot_kick;mp_limitteams 0;mp_autoteambalance 0;mp_roundtime 60;mp_roundtime_defuse 60;mp_freezetime 0;mp_warmup_end;ammo_grenade_limit_total 5;sv_infinite_ammo 1;mp_maxmoney 60000;mp_startmoney 60000;mp_buytime 9999;mp_buy_anywhere 1;mp_restartgame 1
+&lt;/code>&lt;/pre>&lt;h3 id="practice-commands-and-give-grenades">
+Practice commands and give grenades
+&lt;a href="#practice-commands-and-give-grenades" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>sv_showimpacts 1;sv_showimpacts_time 10;give weapon_incgrenade;give weapon_flashbang;give weapon_smokegrenade;give weapon_molotov;give weapon_decoy;give weapon_hegrenade;sv_grenade_trajectory_prac_pipreview 1; sv_grenade_trajectory_prac_trailtime 6;
+&lt;/code>&lt;/pre>&lt;h3 id="bind-button-to-re-throw-grenades">
+Bind button to re-throw grenades
+&lt;a href="#bind-button-to-re-throw-grenades" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>bind p sv_rethrow_last_grenade
+&lt;/code>&lt;/pre>&lt;p>Then you can use &lt;code>p&lt;/code> to re-throw grenades.&lt;/p></description></item></channel></rss>
