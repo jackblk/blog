@@ -28,3 +28,11 @@ bind p sv_rethrow_last_grenade
 ```
 
 Then you can use `p` to re-throw grenades.
+
+### Bind button to remove Smoke & Fire particles
+
+```
+bind l "ent_fire smokegrenade_projectile kill;ent_fire molotov_projectile kill;ent_fire flashbang_projectile kill;ent_fire hegrenade_projectile kill;ent_fire decoy_projectile kill;stopsound"
+```
+
+Then you can use `l` to kill all smokes & mollies.
