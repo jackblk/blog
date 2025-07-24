@@ -3,9 +3,11 @@ content:
     label: Posts
     type: collection
     path: 'content/posts'
-    subfolders: false
     view:
       fields: [ title, date, draft, tags ]
+      layout: tree
+      node:
+        filename: index.md
     fields:
       - name: title
         label: Title
@@ -30,3 +32,4 @@ content:
     label: About
     type: file
     path: 'content/about/index.md'
+    
