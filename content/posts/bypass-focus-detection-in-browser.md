@@ -1,10 +1,12 @@
 ---
-title: "Bypassing JavaScript Focus Detection in the Browser"
-date: 2025-06-27T09:00:00+07:00
+title: Bypassing JavaScript Focus Detection in the Browser
+date: 2025-06-27
 draft: false
-tags: ["javascript", "english", "guide"]
+tags:
+  - javascript
+  - english
+  - guide
 ---
-
 # How to Stop Videos from Pausing When You Switch Tabs
 
 Some sites pause videos if you switch tabs or lose focus. Here's a quick script to bypass that behavior.
