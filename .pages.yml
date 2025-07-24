@@ -33,4 +33,19 @@ content:
     label: About
     type: file
     path: 'content/about/index.md'
-    
+    view:
+      fields: [ title, date, draft ]
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
+      - name: body
+        label: Body
+        type: rich-text
