@@ -8,6 +8,7 @@ content:
       layout: tree
       node:
         filename: index.md
+        hideDirs: nodes
     fields:
       - name: title
         label: Title
