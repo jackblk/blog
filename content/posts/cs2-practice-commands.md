@@ -1,10 +1,12 @@
 ---
-title: "Counter Strike 2 Practice commands"
-date: 2025-04-27T15:35:47+07:00
+title: Counter Strike 2 Practice commands
+date: 2025-04-27
 draft: false
-tags: ["cs2", "english", "guide"]
+tags:
+  - cs2
+  - english
+  - guide
 ---
-
 # CS 2 Practice Commands
 
 Here's the practice commands, copy and paste to your console.
