@@ -7,11 +7,11 @@ tags:
   - english
   - guide
 ---
-# How to Stop Videos from Pausing When You Switch Tabs
+## How to Stop Videos from Pausing When You Switch Tabs
 
 Some sites pause videos if you switch tabs or lose focus. Here's a quick script to bypass that behavior.
 
-## Paste This in the Console
+### Paste This in the Console
 
 ```js
 Object.defineProperty(document, 'hidden', { value: false, configurable: true });
