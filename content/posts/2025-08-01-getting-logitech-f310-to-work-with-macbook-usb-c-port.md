@@ -6,11 +6,11 @@ tags:
   - english
   - guide
 ---
-# **Connect & use Logitech F310 with Macbook**
+## **Connect & use Logitech F310 with Macbook**
 
 Since my Macbook Pro only has USB-C port, I used an USB-A to USB-C adapter to connect my F310 to it, but it does not work (pressing MODE button does not turn on the LED).
 
-## **How to**
+### **How to**
 
 To make it work:
 
@@ -37,7 +37,7 @@ Notes:
 *   Changing it back to X-input will not work
     
 
-## **Credits**
+### **Credits**
 
 *   [Rjbeeth for finding this solution.](https://discussions.apple.com/thread/250230726)
     
