@@ -7,7 +7,7 @@ tags:
   - english
   - guide
 ---
-# CS 2 Practice Commands
+## CS 2 Practice Commands
 
 Here's the practice commands, copy and paste to your console.
 
