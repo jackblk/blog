@@ -7,9 +7,6 @@ on:
     paths-ignore:
       - '.pages.yml'
   workflow_dispatch:
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
 
 jobs:
   deploy:
