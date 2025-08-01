@@ -6,7 +6,7 @@ tags:
   - english
   - battlebit
 ---
-## Battlebit Server Browser
+## Server Browser & Source Code
 
 I built [Battlebit Server Browser](https://battlebit.haicon.moe/) some time back in Battlebit was released, popular. Looking back, it was 2 years already!. Now it's so dead lol.
 
