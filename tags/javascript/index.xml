@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Javascript on /home/jackblk</title><link>https://blog.haicon.moe/tags/javascript/</link><description>Recent content in Javascript on /home/jackblk</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.haicon.moe/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>Bypassing JavaScript Focus Detection in the Browser</title><link>https://blog.haicon.moe/posts/bypass-focus-detection-in-browser/</link><pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate><guid>https://blog.haicon.moe/posts/bypass-focus-detection-in-browser/</guid><description>
-&lt;h1 id="how-to-stop-videos-from-pausing-when-you-switch-tabs">
+&lt;h2 id="how-to-stop-videos-from-pausing-when-you-switch-tabs">
 How to Stop Videos from Pausing When You Switch Tabs
 &lt;a href="#how-to-stop-videos-from-pausing-when-you-switch-tabs" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h1>
+&lt;/h2>
 &lt;p>Some sites pause videos if you switch tabs or lose focus. Here&amp;rsquo;s a quick script to bypass that behavior.&lt;/p>
-&lt;h2 id="paste-this-in-the-console">
+&lt;h3 id="paste-this-in-the-console">
 Paste This in the Console
 &lt;a href="#paste-this-in-the-console" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h2>
+&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>Object.&lt;span style="color:#a6e22e">defineProperty&lt;/span>(document, &lt;span style="color:#e6db74">&amp;#39;hidden&amp;#39;&lt;/span>, { &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">false&lt;/span>, &lt;span style="color:#a6e22e">configurable&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span> });
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Object.&lt;span style="color:#a6e22e">defineProperty&lt;/span>(document, &lt;span style="color:#e6db74">&amp;#39;visibilityState&amp;#39;&lt;/span>, { &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#39;visible&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">configurable&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span> });
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>document.&lt;span style="color:#a6e22e">hasFocus&lt;/span> &lt;span style="color:#f92672">=&lt;/span> () =&amp;gt; &lt;span style="color:#66d9ef">true&lt;/span>;
