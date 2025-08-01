@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on /home/jackblk</title><link>https://blog.haicon.moe/tags/guide/</link><description>Recent content in Guide on /home/jackblk</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.haicon.moe/tags/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Bypassing JavaScript Focus Detection in the Browser</title><link>https://blog.haicon.moe/posts/bypass-focus-detection-in-browser/</link><pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate><guid>https://blog.haicon.moe/posts/bypass-focus-detection-in-browser/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on /home/jackblk</title><link>https://blog.haicon.moe/tags/guide/</link><description>Recent content in Guide on /home/jackblk</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.haicon.moe/tags/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Logitech F310 to work with Macbook USB-C port</title><link>https://blog.haicon.moe/posts/2025-08-01-getting-logitech-f310-to-work-with-macbook-usb-c-port/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://blog.haicon.moe/posts/2025-08-01-getting-logitech-f310-to-work-with-macbook-usb-c-port/</guid><description>
+&lt;h1 id="connect--use-logitech-f310-with-macbook">
+&lt;strong>Connect &amp;amp; use Logitech F310 with Macbook&lt;/strong>
+&lt;a href="#connect--use-logitech-f310-with-macbook" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h1>
+&lt;p>Since my Macbook Pro only has USB-C port, I used an USB-A to USB-C adapter to connect my F310 to it, but it does not work (pressing MODE button does not turn on the LED).&lt;/p>
+&lt;h2 id="how-to">
+&lt;strong>How to&lt;/strong>
+&lt;a href="#how-to" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h2>
+&lt;p>To make it work:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Disconnect F310 from Mac&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>On F310: switch X-input to D-input&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Hold &lt;strong>Logitech&lt;/strong> button (in the middle)&lt;/p></description></item><item><title>Bypassing JavaScript Focus Detection in the Browser</title><link>https://blog.haicon.moe/posts/bypass-focus-detection-in-browser/</link><pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate><guid>https://blog.haicon.moe/posts/bypass-focus-detection-in-browser/</guid><description>
 &lt;h1 id="how-to-stop-videos-from-pausing-when-you-switch-tabs">
 How to Stop Videos from Pausing When You Switch Tabs
 &lt;a href="#how-to-stop-videos-from-pausing-when-you-switch-tabs" class="h-anchor" aria-hidden="true">#&lt;/a>
