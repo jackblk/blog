@@ -1,3 +1,9 @@
+media:
+  - name: images
+    label: Images
+    input: static/images
+    output: /images
+    extensions: [ png, webp, jpg, jpeg ]
 content:
   - name: posts
     label: Posts
