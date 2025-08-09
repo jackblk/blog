@@ -48,20 +48,11 @@ kernel: [ 8085.099691] oom_kill_process+0x116/0x270
 
 There it was! `mariadbd` was killed by the kernel via `oom-killer`, meaning it ran out of memory. But didn't the metrics said the memory utilization was only 50%? Then why it ran out of memory?
 
-Here’s what was really happening:
+### What is the OOM Killer?
 
-*   Memory wasn’t actually “free” in the way it seemed.
-    
-*   MariaDB suddenly tried to allocate a large chunk of memory.
-    
-*   The required memory (`mem_needed`) was greater than `free_mem + swap`.
-    
-*   The kernel saw the request as too big to handle and killed the process instantly.
-    
-*   This happened before memory utilization could visibly spike, so the chart still showed ~50% usage.
-    
+The OOM Killer (Out-of-Memory Killer) is part of the Linux kernel that prevents the system from freezing when memory runs out. When a process requests more memory than the system can provide, either because physical + swap memory is exhausted or because a large contiguous block can’t be found due to fragmentation, the OOM Killer steps in. It selects processes to terminate based on an internal scoring system, often targeting those with the largest memory usage relative to their priority. In this case, MariaDB’s sudden large allocation request made it the top candidate, so `mariadbd` was killed instantly.
 
-This suggested that MariaDB’s InnoDB buffer pool was too small to cache enough data in RAM, forcing queries to constantly hit disk.
+### The Problem: A Tiny Buffer Pool
 
 Quick check:
 
@@ -75,7 +66,11 @@ MariaDB [(none)]> SHOW GLOBAL VARIABLES LIKE 'innodb_buffer_pool_size';
 1 row in set (0.004 sec)
 ```
 
-Only 128MiB for `innodb_buffer_pool_size`! This is too small for Wordpress.
+Only 128MiB for `innodb_buffer_pool_size`! This is too small for a Wordpress site with moderate load.
+
+The buffer pool is where MariaDB caches table data and indexes. When undersized, the database must fetch more data from slow disk storage, which increases latency and causes large memory bursts when loading data.
+
+On top of that, MariaDB also allocates per-connection buffers (for sorting, joins, and temporary tables) which can multiply RAM usage during concurrent queries. Combined with a tiny buffer pool and possible memory fragmentation, these bursts were enough to trigger the OOM Killer, explaining both the spike in disk throughput and the abrupt crash.
 
 ### The Fix
 
