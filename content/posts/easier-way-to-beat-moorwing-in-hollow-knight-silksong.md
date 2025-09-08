@@ -39,11 +39,15 @@ There are some tricks that you should follow to make it easier.
 
 ### Fight on the platform
 
-Easiest way is to fight on the platform
+After triggering the boss, run to the platform on the right
+
+![](/images/moorwing-guide/run-right-arrow.jpg)
+
+Fighting on the platform should bait the boss to hit high, easy to dodge.
 
 ![](/images/moorwing-guide/platform.webp)
 
-This should make the blades hit the platform, so you don't really have to dodge. Also, when the boss flies down, you can just drop out of the platform, lots of spaces to dodge.
+The blades should only hit the platform, so you don't really have to dodge. Also, when the boss flies down, you can just drop out of the platform, lots of spaces to dodge.
 
 ![](/images/moorwing-guide/blades.webp)
 
