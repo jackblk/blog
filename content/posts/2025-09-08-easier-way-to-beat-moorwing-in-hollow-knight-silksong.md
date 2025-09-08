@@ -19,17 +19,17 @@ It was painful for me, but I found a trick for it: [Easier Way to Beat Moorwing 
 *   (2): Second time you will meet them. You can accept their help here.
     
 
-![Image](https://github.com/user-attachments/assets/3bb0e41e-8bb2-482b-ad1d-52435a5f7992)
+![](/images/moorwing-guide/map.png)
 
 ### (Optional) Get help from Garmond & Zaza
 
 It will be easier if you get their help.
 
-![Image](https://github.com/user-attachments/assets/f8a4639b-9b7d-436e-81ff-5ad0e707dfc5)
+![](/images/moorwing-guide/find-garmond.webp)
 
 Accepting their help
 
-![Image](https://github.com/user-attachments/assets/a27c7286-5258-41ae-bda8-757f904de7b8)
+![](/images/moorwing-guide/accept-help.webp)
 
 ## Boss Fight
 
@@ -41,33 +41,34 @@ There are some tricks that you should follow to make it easier.
 
 Easiest way is to fight on the platform
 
-![Image](https://github.com/user-attachments/assets/b00144c7-da3b-4f29-8ae3-2981119709ce)
+![](/images/moorwing-guide/platform.webp)
 
 This should make the blades hit the platform, so you don't really have to dodge. Also, when the boss flies down, you can just drop out of the platform, lots of spaces to dodge.
 
-![Image](https://github.com/user-attachments/assets/d2e27700-d868-4667-995f-e3ddb3afa615)
+![](/images/moorwing-guide/blades.webp)
 
 ### Healing
 
 You can heal safely when the boss is on the left, just drop down to the water and heal
 
-![Image](https://github.com/user-attachments/assets/4973140b-b582-41b8-9497-9c9f25d370b5)
+![](/images/moorwing-guide/heal-water.webp)
 
 ### When the boss is down
 
 Use skills on the boss when he's down. Or just heal yourself.
 
-![Image](https://github.com/user-attachments/assets/d28bb430-9125-40ba-9373-13e61759a61d)
+![](/images/moorwing-guide/use-skill.webp)
 
 ### Second Phase
 
 The boss will start doing this, flies on your head, fires blades on both left & right:
 
-![Image](https://github.com/user-attachments/assets/6d634663-5b41-4f4a-a8fb-4c9c68a0fc93)
+![](/images/moorwing-guide/circle-blades.webp)
 
 Simple rules:
 
 *   **DO NOT HIT HIM** when he's above your head. If he's down because of it, he will fall down **ON YOUR FACE**.
+    
 *   Both blades should hit the platform, but it can occasionally hit you. So try to dodge.
     
 
