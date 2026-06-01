@@ -1,6 +1,10 @@
 ---
 title: Enable Notifications in Ghostty for Claude Code
 date: 2026-06-01
+tags:
+  - ghostty
+  - claude
+  - guide
 draft: false
 ---
 # Claude Code + Ghostty Notifications
