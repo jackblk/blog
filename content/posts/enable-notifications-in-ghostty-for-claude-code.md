@@ -7,8 +7,6 @@ tags:
   - guide
 draft: false
 ---
-# Claude Code + Ghostty Notifications
-
 ## Context
 
 I want Claude Code to notify me whenever it needs input, permission approval, or attention during long-running tasks.
